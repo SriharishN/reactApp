@@ -21,7 +21,6 @@ const App = () => {
                <div> <button type="submit">add</button></div>
            </form>
            <div> Names entered : 
-               {/* {persons.map(person => <ul><li>{person.name}</li></ul>)} */}
                {persons.map(person => <div>{person.name}</div>)}
                </div>   
        </div>
